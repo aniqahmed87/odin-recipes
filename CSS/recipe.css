@@ -1,0 +1,106 @@
+html {
+    box-sizing: border-box;
+    
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+
+body{
+    background-image: url(../images/pattern_recipebg.png);
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+
+.header-format {
+    background-color: rgba(240, 248, 255, 0.11);
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 50px;;
+    
+}
+
+.recipe-card{
+    width: 650px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-left: 3px dotted rgba(255, 238, 143, 0.76);
+    border-right: 3px dotted rgba(255, 238, 143, 0.76);
+    border-bottom: 3px dotted rgba(255, 238, 143, 0.76);
+    
+}
+
+.card-image{
+    display: block;
+    height: 300px;
+    width: auto;
+    margin:50px auto;
+    border-radius: 15px 50px;
+    box-shadow: 1px -1px 25px 3px rgb(255, 255, 255);
+    transition: box-shadow 0.3s;
+}
+
+.card-image:hover{
+    box-shadow: 1px -1px 25px 5px rgb(255, 255, 255);
+}
+
+.cook-summary{
+    /* border:1px solid red; */
+    margin: 50px auto;
+    text-align: center;
+}
+
+.cook-summary-item{
+    display: inline-block;
+    background-color: rgba(240, 248, 255, 0.11);
+    border-radius: 1cqb;
+    margin: 0 auto;
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    /* border-right: 3px dotted rgb(243, 243, 243, 0.75); */
+}   
+
+.cook-summary .cook-summary-item img{
+    height: 50px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.cook-summary .cook-summary-item img:hover{
+    height: 60px;
+    width: auto;
+    
+}
+
+.cook-summary-item-maintext{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cook-summary-item-subtext{
+    display: block;
+    font-weight:lighter;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.bottom-nav{
+    text-align: center;
+    
+}
+.nav-image{
+    height: 50px;
+    width: auto;
+    
+}
